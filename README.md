@@ -1,4 +1,4 @@
-![alt text](./gif.gif)
+<p dir='rtl' align='center'>![alt text](./gif.gif)</p>
 
 This is just a demo from a real site. I wrote it as a demo for my own and its not a real project.
 used https://github.com/isaachinman/next-i18next
