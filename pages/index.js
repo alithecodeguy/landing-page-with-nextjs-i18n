@@ -8,7 +8,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // components
 import Header from "../src/components/index/header/header";
 import Banner from "../src/components/index/banner/banner";
-import { Link, withTranslation } from "../i18n";
+import { withTranslation } from "../i18n";
 
 const useStyles = makeStyles(() => ({
   root: (props) => {
@@ -27,13 +27,13 @@ const useStyles = makeStyles(() => ({
     maxHeight: "calc(100vh - 100px)",
     overflow: "hidden",
   },
-  introduction_section: {},
-  services_section: {},
-  cooperation_section: {},
-  design_section: {},
-  subscribe_section: {},
-  mag_section: {},
-  footer_section: {},
+  // introduction_section: {},
+  // services_section: {},
+  // cooperation_section: {},
+  // design_section: {},
+  // subscribe_section: {},
+  // mag_section: {},
+  // footer_section: {},
 }));
 
 const Homepage = (props) => {
@@ -53,7 +53,7 @@ const Homepage = (props) => {
         xs={12}
         className={classes.introduction_section}
       ></Grid>
-      <Grid container item xs={12} className={classes.customers_section}></Grid>
+      {/*<Grid container item xs={12} className={classes.customers_section}></Grid>
       <Grid container item xs={12} className={classes.services_section}></Grid>
       <Grid
         container
@@ -64,7 +64,7 @@ const Homepage = (props) => {
       <Grid container item xs={12} className={classes.design_section}></Grid>
       <Grid container item xs={12} className={classes.subscribe_section}></Grid>
       <Grid container item xs={12} className={classes.mag_section}></Grid>
-      <Grid container item xs={12} className={classes.footer_section}></Grid>
+      <Grid container item xs={12} className={classes.footer_section}></Grid>*/}
     </Grid>
   );
 };

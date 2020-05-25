@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // components
 import Contact from "./components/contact";
 import Navbar from "./components/navbar";
-import { Link, withTranslation } from "../../../../i18n";
+import { Link } from "../../../../i18n";
 
 const useStyles = makeStyles(() => ({
   root: { height: "100%" },

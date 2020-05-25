@@ -1,9 +1,11 @@
+// material ui
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
-import { Link, withTranslation } from "../../../../../i18n";
 import Hidden from "@material-ui/core/Hidden";
-import MenuIcon from "@material-ui/icons/Menu";
-import TemporaryDrawer from "../../../common/TemporaryDrawer";
+
+// components
+import { Link, withTranslation } from "../../../../../i18n";
+
 const useStyles = makeStyles(() => ({
   root: { height: "100%" },
   nav_item: {

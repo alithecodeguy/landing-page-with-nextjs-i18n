@@ -1,15 +1,8 @@
-/*
-
-
-
-                      ****** Don't delete anything from this page ******
-
-
-
-*/
-
+// core libraries
 import React from "react";
 import Document, { Head, Main, NextScript } from "next/document";
+
+// material ui
 import { ServerStyleSheets } from "@material-ui/styles";
 
 class MyDocument extends Document {
@@ -23,10 +16,8 @@ class MyDocument extends Document {
             name="viewport"
             content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
           />
-          <meta name="description" content="sairosoft" />
-          <link rel="shortcut icon" href="" />
-          {/* <link rel="shortcut icon" href="/static/icons/airplane_icon.png" /> */}
-          {/* PWA primary color */}
+          <meta name="description" content="@alithecodeguy" />
+          {/* <link rel="shortcut icon" href="/static/icon.png" /> */}
         </Head>
         <body style={{ backgroundColor: "#fff" }}>
           <Main />

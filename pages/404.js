@@ -1,6 +1,6 @@
-import { withTranslation } from "../i18n";
+// import { withTranslation } from "../i18n";
 
-const Custom404 = () => {
+const Custom404 = ({ t }) => {
   return (
     <div
       style={{
@@ -23,8 +23,11 @@ const Custom404 = () => {
   );
 };
 
+// can not use i18n in here. it's i18n conflict with nextjs. it's an open issue on official website
 // Custom404.getInitialProps = async () => ({
 //   namespacesRequired: ["custome404"],
 // });
 
-export default withTranslation("common")(Custom404);
+// export default withTranslation("common")(Custom404);
+
+export default Custom404;
