@@ -1,0 +1,32 @@
+{
+  "name": "-",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "dev": "node index.js",
+    "build": "next build",
+    "start": "SET NODE_ENV=production & SET PORT=80 & node index.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.9.14",
+    "express": "^4.16.4",
+    "i18next": "^14.0.1",
+    "jss": "^10.1.1",
+    "jss-rtl": "^0.3.0",
+    "next": "^9.1.6",
+    "next-i18next": "^3.0.1",
+    "notistack": "^0.9.14",
+    "react": "^16.12.0",
+    "react-awesome-slider": "^4.1.0",
+    "react-coverflow": "^0.2.20",
+    "react-dom": "^16.12.0",
+    "react-stonecutter": "^0.3.10"
+  }
+}
